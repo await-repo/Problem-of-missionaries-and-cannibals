@@ -2,7 +2,11 @@
 
 ### **Resumen**
 
-**Reglas**
+Se diseñó una estructura de datos **(grafo)** donde cada estado es un nodo y esta conectado con su estado anterior mediante una arista.
+
+**El objetivo es construir un grafo** con todos los estados en orden desde el estado incial hasta el estado final, conectados por aristas únicamente por su estado anterior y su estado posterior.
+
+### **Reglas**
 
 1. El bote solo puede llevar máximo dos pasajeros, mínimo uno (el bote no puede cruzar vacío).
 2. El número de caníbales siempre debe ser menor o igual que el número de misioneros, de lo contrario los caníbales se comerían a los misioneros.
